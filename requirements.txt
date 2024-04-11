@@ -1,0 +1,3 @@
+py-dotenv
+git+https://github.com/ioniccommerce/R2R.git@os/ionic
+ionic-api-sdk
