@@ -1,4 +1,5 @@
 from r2r.main import E2EPipelineFactory, R2RConfig
+
 from .ionic_rag import IonicProductPipeline
 
 app = E2EPipelineFactory.create_pipeline(

@@ -1,6 +1,6 @@
 # README 
 
-This directory contains the necessary files to deploy a basic RAG pipeline using the R2R framework with the SciPhi cloud platform.
+This directory contains the necessary files to deploy a basic RAG pipeline using the R2R framework with an Ionic Commerce Integration providing product recommendations and links based on query
 
 To test this application locally, run the following
 ```bash
@@ -12,6 +12,10 @@ export LOCAL_DB_PATH=local.sqlite
 
 # Launch
 uvicorn src.app:app
+
+# Example Client
+python -m src.client
+
 ```
 [Visit SciPhi](https://r2r-docs.sciphi.ai) for more information on how to customize your RAG application.
 [Visit Ionic](https://ioniccommerce.com) and their [docs](https://docs.ioniccommerce.com) for more information about embedding ecommerce.

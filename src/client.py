@@ -1,7 +1,3 @@
-import asyncio
-import os
-import uuid
-
 from r2r.client import R2RClient
 
 # Initialize the client with the base URL of your API
